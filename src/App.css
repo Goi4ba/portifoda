@@ -1,0 +1,66 @@
+
+body{
+  background-color: #04080F;
+  color: #DAE3E5;
+  
+}
+.img{
+  margin-left: 30%;
+}
+.img1{
+  width: 100px;
+}
+.meio{
+  display: flex;
+  justify-content: center;
+}
+.fala{
+  width: 60vw;
+  height: 80vh;
+  background-color: #507DBC;
+  margin-left: 5%;
+  margin-top: -60vh;
+
+}
+.Menu{
+  margin-top: 0px;
+  background-color: #507DBC;
+  width: 15vw;
+  height: 7vh;
+  padding: 1px;
+}
+.Nav1{
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.Nav2{
+  margin-left: 10px;
+  margin-top: -54px;
+}
+.Nav3{
+  margin-left: 130px;
+  margin-top: -54px;
+}
+
+.Home{
+  display: flex;
+  justify-content: center ;
+  animation: PessoaFlutua infinite 3s linear;
+}
+
+.PessoaA{
+  margin-left: 60%;
+}
+
+
+@keyframes PessoaFlutua {
+  from {
+    margin-top: 0vh;
+  }
+  50%{
+    margin-top: -2vh;
+  }
+  to{
+    margin-top: 0vh;
+  }
+}
